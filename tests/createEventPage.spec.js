@@ -17,7 +17,7 @@ test('createEventPage',async ({page})=>{
       await createEvent.publish()
 
 
-                     //Event Media page title
+                     //Event Media page title for create event
                     
     const PageTitle =await page.locator("//h1[normalize-space()='Event media']").textContent();    
     console.log("PageTitle"+PageTitle);
